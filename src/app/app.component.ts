@@ -9,9 +9,8 @@ import {NewhomePage} from '../pages/newhome/newhome'
   templateUrl: 'app.html'
 })
 export class MyApp {
-  // change back to 
-  //rootPage:any = HomePage;
-  rootPage:any = NewhomePage;
+
+  rootPage:any = HomePage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
