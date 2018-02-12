@@ -23,6 +23,13 @@ $app-direction: ltr;
 // http://ionicframework.com/docs/theming/overriding-ionic-variables/
 
 
+$text-input-md-highlight-color-invalid: transparent;
+$text-input-md-highlight-color-valid: transparent;
+$text-input-md-show-invalid-highlight: transparent;
+$text-input-md-highlight-color: transparent;
+$text-input-md-show-valid-highlight: transparent;
+$text-input-placeholder-color: #FFFFFF;
+
 
 
 // Named Color Variables
@@ -40,6 +47,9 @@ $colors: (
   light:      #f4f4f4,
   dark:       #222
 );
+
+$background-color: #8B1E3F;
+$text-color: #FFFFFF;
 
 
 // App iOS Variables
