@@ -19,3 +19,12 @@
 	background-color: rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
 }
+
+.gradient{
+	background: linear-gradient(to bottom right,#F59F6A, #F55665);
+	box-shadow: rgba(0,0,0,0.3) 0 0 10px;
+}
+
+.cardBottomOnly{
+	border-radius: 0px 0px 25px 25px;
+}
