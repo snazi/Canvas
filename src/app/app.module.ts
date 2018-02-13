@@ -8,13 +8,19 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import {ScanPage} from '../pages/scan/scan';
 import {NewhomePage} from '../pages/newhome/newhome';
+import { PassportPage } from '../pages/passport/passport';
+import { LicensePage } from '../pages/license/license';
+import { SelfiePage } from '../pages/selfie/selfie';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     ScanPage,
-    NewhomePage
+    NewhomePage,
+    PassportPage,
+    LicensePage,
+    SelfiePage
   ],
   imports: [
     BrowserModule,
@@ -27,7 +33,10 @@ import {NewhomePage} from '../pages/newhome/newhome';
     MyApp,
     HomePage,
     ScanPage,
-    NewhomePage
+    NewhomePage,
+    PassportPage,
+    LicensePage,
+    SelfiePage
   ],
   providers: [
     StatusBar,

@@ -1,0 +1,43 @@
+page-selfie {
+  .scan {
+
+      scroll-content {
+          display: flex;
+          flex-direction: column;
+      }
+
+      ion-grid {
+          padding: 0;
+          height: 100%;
+      }
+
+
+
+  }
+
+  .test{
+    height: 75%;
+    width: 100%;
+    border-radius: 0px 0px 25px 25px;
+    background: linear-gradient(to bottom right,#F59F6A, #F55665);
+    box-shadow: rgba(0,0,0,0.3) 0 0 10px;
+  }
+
+  .canvasLogo {
+    height: 25%;
+    width: 100%;
+  }
+
+
+  .initialInputArea {
+    height: 50%;
+    display: table-cell;
+    vertical-align: middle;
+
+  }
+
+  .imageArea {
+
+  }
+
+}

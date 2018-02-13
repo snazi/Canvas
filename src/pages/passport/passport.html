@@ -1,0 +1,62 @@
+<!--
+  Generated template for the PassportPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+  <ion-content class="scan">
+
+    <ion-grid>
+
+      <ion-row class="test">
+
+        <ion-grid>
+
+          <ion-row class="canvasLogo">
+
+            <div style="height: 50%; width: 100%;">
+              <ion-grid>
+                <ion-row style="text-align: center;margin: auto;">
+                  <img padding src="assets/imgs/cLogo.png">
+
+                </ion-row>
+              </ion-grid>
+            </div>
+
+          </ion-row>
+          <ion-row class="initialInputArea">
+
+            <ion-grid>
+
+              <ion-row padding class="imageArea">
+                    <ion-item no-lines class="boxedInput" ></ion-item>
+              </ion-row>
+
+              <ion-row padding text-center class ="initialExtraArea">
+                <ion-col> <p>Make sure your passport details are visible<br>in the photo and that the image is clear</p></ion-col>
+              </ion-row>
+
+            </ion-grid>
+
+          </ion-row>
+
+        </ion-grid>
+
+      </ion-row>
+      <ion-row padding text-center style="height:15%;color: #FFFFFF;">
+
+        <ion-col><h4>Use this as your<br>passport image?</h4></ion-col>
+
+      </ion-row>
+      <ion-row padding style="height:10%;color: #FFFFFF;">
+
+        <ion-col text-left> <h5 [navPush]="scanPage"> < BACK</h5></ion-col>
+
+        <ion-col text-right> <h5 [navPush]="selfiePage">CONTINUE > </h5></ion-col>
+
+      </ion-row>
+
+    </ion-grid>
+
+</ion-content>
