@@ -10,7 +10,7 @@ import {NewhomePage} from '../pages/newhome/newhome'
 })
 export class MyApp {
 
-  rootPage:any = HomePage;
+  rootPage:any = NewhomePage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
