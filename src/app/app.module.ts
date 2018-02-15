@@ -11,6 +11,7 @@ import {NewhomePage} from '../pages/newhome/newhome';
 import { PassportPage } from '../pages/passport/passport';
 import { LicensePage } from '../pages/license/license';
 import { SelfiePage } from '../pages/selfie/selfie';
+import {DevpagePage} from '../pages/devpage/devpage';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,9 @@ import { SelfiePage } from '../pages/selfie/selfie';
     NewhomePage,
     PassportPage,
     LicensePage,
-    SelfiePage
+    SelfiePage,
+    DevpagePage
+
   ],
   imports: [
     BrowserModule,
@@ -36,7 +39,8 @@ import { SelfiePage } from '../pages/selfie/selfie';
     NewhomePage,
     PassportPage,
     LicensePage,
-    SelfiePage
+    SelfiePage,
+    DevpagePage
   ],
   providers: [
     StatusBar,
