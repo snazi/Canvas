@@ -12,6 +12,7 @@ import { PassportPage } from '../pages/passport/passport';
 import { LicensePage } from '../pages/license/license';
 import { SelfiePage } from '../pages/selfie/selfie';
 import {DevpagePage} from '../pages/devpage/devpage';
+import {BookingsPage} from '../pages/bookings/bookings'
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {DevpagePage} from '../pages/devpage/devpage';
     PassportPage,
     LicensePage,
     SelfiePage,
-    DevpagePage
+    DevpagePage,
+    BookingsPage
 
   ],
   imports: [
@@ -40,7 +42,8 @@ import {DevpagePage} from '../pages/devpage/devpage';
     PassportPage,
     LicensePage,
     SelfiePage,
-    DevpagePage
+    DevpagePage,
+    BookingsPage
   ],
   providers: [
     StatusBar,
