@@ -14,6 +14,7 @@ import { SelfiePage } from '../pages/selfie/selfie';
 import { DetailsPage } from '../pages/details/details';
 import { PaymentPage } from '../pages/payment/payment';
 import { FinishPage } from '../pages/finish/finish';
+import {DevpagePage} from '../pages/devpage/devpage';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FinishPage } from '../pages/finish/finish';
     SelfiePage,
     DetailsPage,
     PaymentPage,
-    FinishPage
+    FinishPage,
+    DevpagePage
   ],
   imports: [
     BrowserModule,
@@ -45,7 +47,8 @@ import { FinishPage } from '../pages/finish/finish';
     SelfiePage,
     DetailsPage,
     PaymentPage,
-    FinishPage
+    FinishPage,
+    DevpagePage
   ],
   providers: [
     StatusBar,

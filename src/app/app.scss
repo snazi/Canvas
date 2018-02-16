@@ -28,3 +28,28 @@
 .cardBottomOnly{
 	border-radius: 0px 0px 25px 25px;
 }
+
+ion-avatar img  {
+width:100% !important;
+height : 100% !important;
+max-width: 80px !important;  //any size
+max-height: 80px !important; //any size
+}
+
+.navImg{
+	width:100% !important;
+	height : 100% !important;
+	max-width: 25px !important;  //any size
+	max-height: 25px !important; //any size
+}
+
+.item ion-thumbnail {
+    min-width: 4.5rem;    
+    min-height: 4.5rem;
+    img {
+        max-width: 4.5rem;    
+        min-width: 4.5rem;
+        max-height: 4.5rem;    
+        min-height: 4.5rem;
+    }
+}
