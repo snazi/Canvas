@@ -4,8 +4,9 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-import {NewhomePage} from '../pages/newhome/newhome'
+import {NewhomePage} from '../pages/newhome/newhome';
 import {DevpagePage} from '../pages/devpage/devpage';
+import { QrcodePage } from '../pages/qrcode/qrcode';
 
 @Component({
   templateUrl: 'app.html'
@@ -24,6 +25,7 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
+      { title: 'QR Code', component: QrcodePage, imgSource: '../assets/imgs/QRCode.png' },
       { title: 'Home', component: NewhomePage, imgSource: '../assets/imgs/home.png'},
       { title: 'List', component: DevpagePage, imgSource: '../assets/imgs/bookings.png' }
     ];

@@ -15,6 +15,7 @@ import { DetailsPage } from '../pages/details/details';
 import { PaymentPage } from '../pages/payment/payment';
 import { FinishPage } from '../pages/finish/finish';
 import {DevpagePage} from '../pages/devpage/devpage';
+import { QrcodePage } from '../pages/qrcode/qrcode';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {DevpagePage} from '../pages/devpage/devpage';
     DetailsPage,
     PaymentPage,
     FinishPage,
-    DevpagePage
+    DevpagePage,
+    QrcodePage
   ],
   imports: [
     BrowserModule,
@@ -48,7 +50,8 @@ import {DevpagePage} from '../pages/devpage/devpage';
     DetailsPage,
     PaymentPage,
     FinishPage,
-    DevpagePage
+    DevpagePage,
+    QrcodePage
   ],
   providers: [
     StatusBar,
