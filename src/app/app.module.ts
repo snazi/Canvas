@@ -12,6 +12,8 @@ import { PassportPage } from '../pages/passport/passport';
 import { LicensePage } from '../pages/license/license';
 import { SelfiePage } from '../pages/selfie/selfie';
 import { DetailsPage } from '../pages/details/details';
+import { PaymentPage } from '../pages/payment/payment';
+import { FinishPage } from '../pages/finish/finish';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { DetailsPage } from '../pages/details/details';
     PassportPage,
     LicensePage,
     SelfiePage,
-    DetailsPage
+    DetailsPage,
+    PaymentPage,
+    FinishPage
   ],
   imports: [
     BrowserModule,
@@ -39,7 +43,9 @@ import { DetailsPage } from '../pages/details/details';
     PassportPage,
     LicensePage,
     SelfiePage,
-    DetailsPage
+    DetailsPage,
+    PaymentPage,
+    FinishPage
   ],
   providers: [
     StatusBar,
