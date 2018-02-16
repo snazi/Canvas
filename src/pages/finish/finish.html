@@ -4,15 +4,39 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-header>
 
-  <ion-navbar>
-    <ion-title>finish</ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
-<ion-content padding>
-
+<ion-content class="page mainBackground">
+  <ion-grid>
+    <ion-row class="bg">
+      <ion-grid>
+        <ion-row class="canvasLogo">
+          <div style="height: 50%; width: 100%;">
+            <ion-grid>
+            <ion-row style="text-align: center;margin: auto;">
+              <img padding src="assets/imgs/cLogo.png">
+            </ion-row>
+          </ion-grid>
+          </div>
+        </ion-row>
+        <ion-row style="text-align: center;margin: auto;">
+          <img src="assets/imgs/qrcode.png">
+        </ion-row>
+        <ion-row text-center>
+          <ion-col>
+            <p>
+              Simply scan this code at any Canvas hotel<br>or resort to check-in instantly.
+              <br><br>
+              This code will be accessible through the menu.
+            </p>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-row>
+    <ion-row padding text-center style="height:15%;color: #FFFFFF;">
+      <ion-col><h4>You have successfully<br>signed-up!</h4></ion-col>
+    </ion-row>
+    <ion-row padding text-right style="height:10%;color: #FFFFFF;">
+      <ion-col> <h5 [navPush]="finishPage">FINISH > </h5></ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
