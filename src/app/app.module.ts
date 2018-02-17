@@ -19,6 +19,11 @@ import {BookingsPage} from '../pages/bookings/bookings';
 import { QrcodePage } from '../pages/qrcode/qrcode';
 import { PinPage } from '../pages/pin/pin';
 import { RoomservicePage } from '../pages/roomservice/roomservice';
+import { FoodbreakfastPage } from '../pages/foodbreakfast/foodbreakfast';
+import { FoodsaladPage } from '../pages/foodsalad/foodsalad';
+import { CleanPage } from '../pages/clean/clean';
+import { ExtraPage } from '../pages/extra/extra';
+import { RequestsPage } from '../pages/requests/requests';
 
 @NgModule({
   declarations: [
@@ -36,7 +41,12 @@ import { RoomservicePage } from '../pages/roomservice/roomservice';
     FinishPage,
     QrcodePage,
     PinPage,
-    RoomservicePage
+    RoomservicePage,
+    FoodbreakfastPage,
+    FoodsaladPage,
+    CleanPage,
+    ExtraPage,
+    RequestsPage
   ],
   imports: [
     BrowserModule,
@@ -60,7 +70,12 @@ import { RoomservicePage } from '../pages/roomservice/roomservice';
     FinishPage,
     QrcodePage,
     PinPage,
-    RoomservicePage
+    RoomservicePage,
+    FoodbreakfastPage,
+    FoodsaladPage,
+    CleanPage,
+    ExtraPage,
+    RequestsPage
   ],
   providers: [
     StatusBar,
