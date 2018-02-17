@@ -18,6 +18,7 @@ import {DevpagePage} from '../pages/devpage/devpage';
 import {BookingsPage} from '../pages/bookings/bookings';
 import { QrcodePage } from '../pages/qrcode/qrcode';
 import { PinPage } from '../pages/pin/pin';
+import { RoomservicePage } from '../pages/roomservice/roomservice';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { PinPage } from '../pages/pin/pin';
     PaymentPage,
     FinishPage,
     QrcodePage,
-    PinPage
+    PinPage,
+    RoomservicePage
   ],
   imports: [
     BrowserModule,
@@ -57,7 +59,8 @@ import { PinPage } from '../pages/pin/pin';
     PaymentPage,
     FinishPage,
     QrcodePage,
-    PinPage
+    PinPage,
+    RoomservicePage
   ],
   providers: [
     StatusBar,
