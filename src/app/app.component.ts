@@ -16,7 +16,7 @@ export class MyApp {
 
   @ViewChild(Nav) nav: Nav;
 
-  rootPage:any = NewhomePage;
+  rootPage:any = HomePage;
 
   pages: Array<{title: string, component: any, imgSource: string}> ;
 
