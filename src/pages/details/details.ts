@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { DetailsPage } from '../details/details';
-import { ScanPage } from '../scan/scan';
-
+import { PaymentPage } from '../payment/payment';
 
 /**
- * Generated class for the SelfiePage page.
+ * Generated class for the DetailsPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -13,19 +11,18 @@ import { ScanPage } from '../scan/scan';
 
 @IonicPage()
 @Component({
-  selector: 'page-selfie',
-  templateUrl: 'selfie.html',
+  selector: 'page-details',
+  templateUrl: 'details.html',
 })
-export class SelfiePage {
+export class DetailsPage {
 
-  detailsPage = DetailsPage;
-  scanPage = ScanPage;
+  paymentPage = PaymentPage;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad SelfiePage');
+    console.log('ionViewDidLoad DetailsPage');
   }
 
 }

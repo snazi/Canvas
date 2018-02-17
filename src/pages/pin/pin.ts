@@ -1,11 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { DetailsPage } from '../details/details';
-import { ScanPage } from '../scan/scan';
-
 
 /**
- * Generated class for the SelfiePage page.
+ * Generated class for the PinPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -13,19 +10,16 @@ import { ScanPage } from '../scan/scan';
 
 @IonicPage()
 @Component({
-  selector: 'page-selfie',
-  templateUrl: 'selfie.html',
+  selector: 'page-pin',
+  templateUrl: 'pin.html',
 })
-export class SelfiePage {
-
-  detailsPage = DetailsPage;
-  scanPage = ScanPage;
+export class PinPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad SelfiePage');
+    console.log('ionViewDidLoad PinPage');
   }
 
 }

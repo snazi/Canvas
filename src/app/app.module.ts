@@ -11,8 +11,14 @@ import {NewhomePage} from '../pages/newhome/newhome';
 import { PassportPage } from '../pages/passport/passport';
 import { LicensePage } from '../pages/license/license';
 import { SelfiePage } from '../pages/selfie/selfie';
+import { DetailsPage } from '../pages/details/details';
+import { PaymentPage } from '../pages/payment/payment';
+import { FinishPage } from '../pages/finish/finish';
 import {DevpagePage} from '../pages/devpage/devpage';
+
 import {BookingsPage} from '../pages/bookings/bookings'
+import { QrcodePage } from '../pages/qrcode/qrcode';
+import { PinPage } from '../pages/pin/pin';
 
 @NgModule({
   declarations: [
@@ -24,8 +30,12 @@ import {BookingsPage} from '../pages/bookings/bookings'
     LicensePage,
     SelfiePage,
     DevpagePage,
-    BookingsPage
-
+    BookingsPage,
+    DetailsPage,
+    PaymentPage,
+    FinishPage,
+    QrcodePage,
+    PinPage
   ],
   imports: [
     BrowserModule,
@@ -44,6 +54,11 @@ import {BookingsPage} from '../pages/bookings/bookings'
     SelfiePage,
     DevpagePage,
     BookingsPage
+    DetailsPage,
+    PaymentPage,
+    FinishPage,
+    QrcodePage,
+    PinPage
   ],
   providers: [
     StatusBar,
