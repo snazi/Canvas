@@ -25,9 +25,9 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home', component: NewhomePage, imgSource: '../assets/imgs/home.png'},
-      { title: 'Bookings', component: BookingsPage, imgSource: '../assets/imgs/bookings.png'},
-      { title: 'List', component: DevpagePage, imgSource: '../assets/imgs/bookings.png' }
+      { title: 'Home', component: NewhomePage, imgSource: 'assets/imgs/home.png'},
+      { title: 'Bookings', component: BookingsPage, imgSource: 'assets/imgs/bookings.png'},
+      { title: 'List', component: DevpagePage, imgSource: 'assets/imgs/bookings.png' }
     ];
 
   }
