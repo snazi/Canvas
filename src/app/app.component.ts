@@ -16,7 +16,7 @@ export class MyApp {
 
   @ViewChild(Nav) nav: Nav;
 
-  rootPage:any = NewhomePage;
+  rootPage:any = HomePage;
 
   pages: Array<{title: string, component: any, imgSource: string}> ;
 
@@ -29,7 +29,7 @@ export class MyApp {
 
       { title: 'Home', component: NewhomePage, imgSource: 'assets/imgs/home.png'},
       { title: 'Bookings', component: BookingsPage, imgSource: 'assets/imgs/bookings.png'},
-      { title: 'List', component: DevpagePage, imgSource: 'assets/imgs/bookings.png' },
+      { title: 'Test Dev Page', component: DevpagePage, imgSource: 'assets/imgs/bookings.png' },
       { title: 'QR Code', component: QrcodePage, imgSource: 'assets/imgs/QRCode.png' },
     ];
 

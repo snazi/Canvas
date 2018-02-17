@@ -15,8 +15,7 @@ import { DetailsPage } from '../pages/details/details';
 import { PaymentPage } from '../pages/payment/payment';
 import { FinishPage } from '../pages/finish/finish';
 import {DevpagePage} from '../pages/devpage/devpage';
-
-import {BookingsPage} from '../pages/bookings/bookings'
+import {BookingsPage} from '../pages/bookings/bookings';
 import { QrcodePage } from '../pages/qrcode/qrcode';
 import { PinPage } from '../pages/pin/pin';
 
@@ -53,7 +52,7 @@ import { PinPage } from '../pages/pin/pin';
     LicensePage,
     SelfiePage,
     DevpagePage,
-    BookingsPage
+    BookingsPage,
     DetailsPage,
     PaymentPage,
     FinishPage,
