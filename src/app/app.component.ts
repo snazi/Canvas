@@ -27,18 +27,10 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-<<<<<<< HEAD
-
-      { title: 'Home', component: NewhomePage, imgSource: 'assets/imgs/home.png'},
-      { title: 'Bookings', component: BookingsPage, imgSource: 'assets/imgs/bookings.png'},
-      { title: 'Test Dev Page', component: DevpagePage, imgSource: 'assets/imgs/bookings.png' },
-      { title: 'QR Code', component: QrcodePage, imgSource: 'assets/imgs/QRCode.png' },
-=======
       { title: 'QR Code', component: QrcodePage, imgSource: '../assets/imgs/QRCode.png' },
       { title: 'Home', component: NewhomePage, imgSource: '../assets/imgs/home.png'},
       { title: 'List', component: DevpagePage, imgSource: '../assets/imgs/bookings.png' },
       { title: 'Room Service', component: RoomservicePage, imgSource: '../assets/imgs/roomservice.png'}
->>>>>>> room-service
     ];
 
   }
