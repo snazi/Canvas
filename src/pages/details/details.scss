@@ -1,5 +1,5 @@
-page-scan {
-	.scan {
+page-details {
+  .home {
 
 	    scroll-content {
 	        display: flex;
@@ -10,9 +10,6 @@ page-scan {
 	        padding: 0;
 	        height: 100%;
 	    }
-
-
-
 	}
 
 	.test{
@@ -28,16 +25,10 @@ page-scan {
 		width: 100%;
 	}
 
-
 	.initialInputArea {
-		height: 50%;
+		height: 60%;
 		display: table-cell;
 		vertical-align: middle;
 
 	}
-
-	.imageArea {
-		
-	}
-
 }

@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { PassportPage } from '../passport/passport';
-import { LicensePage } from '../license/license';
+import { NewhomePage } from '../newhome/newhome';
 
 /**
- * Generated class for the ScanPage page.
+ * Generated class for the FinishPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -12,19 +11,18 @@ import { LicensePage } from '../license/license';
 
 @IonicPage()
 @Component({
-  selector: 'page-scan',
-  templateUrl: 'scan.html',
+  selector: 'page-finish',
+  templateUrl: 'finish.html',
 })
-export class ScanPage {
+export class FinishPage {
 
-  passportPage = PassportPage;
-  licensePage = LicensePage;
+  newhomePage = NewhomePage;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ScanPage');
+    console.log('ionViewDidLoad FinishPage');
   }
 
 }

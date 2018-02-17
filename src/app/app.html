@@ -1,1 +1,26 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-menu [content]="content">
+  
+
+  <ion-content class="gradient">
+
+  	<ion-item padding no-lines style="height:20%; background-color: transparent; ">
+    <ion-avatar item-start>
+      <img src="assets/imgs/homeImg.png">
+    </ion-avatar>
+    <h2>Rain<br>Sager</h2>
+    <p style="color: #FFFFFF;">Edit Profile</p>
+  </ion-item>
+    <ion-list no-lines>
+      <button style ="background-color: transparent;" menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
+      	<ion-thumbnail style="height:10%" item-start>
+	      <img src={{p.imgSource}}>
+	    </ion-thumbnail>
+        {{p.title}}
+      </button>
+    </ion-list>
+  </ion-content>
+
+</ion-menu>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

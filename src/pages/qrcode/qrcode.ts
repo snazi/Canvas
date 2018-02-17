@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { PassportPage } from '../passport/passport';
-import { LicensePage } from '../license/license';
 
 /**
- * Generated class for the ScanPage page.
+ * Generated class for the QrcodePage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -12,19 +10,16 @@ import { LicensePage } from '../license/license';
 
 @IonicPage()
 @Component({
-  selector: 'page-scan',
-  templateUrl: 'scan.html',
+  selector: 'page-qrcode',
+  templateUrl: 'qrcode.html',
 })
-export class ScanPage {
-
-  passportPage = PassportPage;
-  licensePage = LicensePage;
+export class QrcodePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ScanPage');
+    console.log('ionViewDidLoad QrcodePage');
   }
 
 }
