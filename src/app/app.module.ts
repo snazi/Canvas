@@ -15,6 +15,8 @@ import { DetailsPage } from '../pages/details/details';
 import { PaymentPage } from '../pages/payment/payment';
 import { FinishPage } from '../pages/finish/finish';
 import {DevpagePage} from '../pages/devpage/devpage';
+
+import {BookingsPage} from '../pages/bookings/bookings'
 import { QrcodePage } from '../pages/qrcode/qrcode';
 import { PinPage } from '../pages/pin/pin';
 
@@ -27,10 +29,11 @@ import { PinPage } from '../pages/pin/pin';
     PassportPage,
     LicensePage,
     SelfiePage,
+    DevpagePage,
+    BookingsPage,
     DetailsPage,
     PaymentPage,
     FinishPage,
-    DevpagePage,
     QrcodePage,
     PinPage
   ],
@@ -49,10 +52,11 @@ import { PinPage } from '../pages/pin/pin';
     PassportPage,
     LicensePage,
     SelfiePage,
+    DevpagePage,
+    BookingsPage
     DetailsPage,
     PaymentPage,
     FinishPage,
-    DevpagePage,
     QrcodePage,
     PinPage
   ],
