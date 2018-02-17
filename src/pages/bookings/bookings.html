@@ -27,9 +27,32 @@
 	</ion-row>
 	<ion-row padding>
 		<ion-list style="width:100%;">
-			<ion-item no-lines style =" width:100%; margin-bottom:5%;" *ngFor="let b of booked" class="customButton1">
-				<div style="height: 100%; width:100%;"> {{b.roomType}} </div>	
+			<ion-item no-lines style =" width:100%; margin-bottom:5%; color: #FFFFFF" *ngFor="let b of booked" class="customButton1">
+				<ion-row>
+					<ion-col>
+						<div style="height: 100%; width:100%;"> {{b.roomType}} </div>	
+					</ion-col>
+					
+				</ion-row>
+				<ion-row>
+					<ion-col>
+						<p ion-text style="color: #FFFFFF">{{b.otherDetails}}</p>
+					</ion-col>
+					
+				</ion-row>
+				<ion-row>
+					<ion-col col-6 text-left>
+						<p ion-text style="color: #FFFFFF">{{b.bookedDate}}</p>
+					</ion-col>
+					<ion-col col6 text-right>
+						<p ion-text style="color: #FFFFFF">View Details</p>
+					</ion-col>
+				</ion-row>
+				
 			</ion-item>
 		</ion-list>
 	</ion-row>
+
+	<button class="customButton1" padding ion-button block style=" height: 15%; width: 80%; margin-left: auto; margin-right: auto;">ADD NEW BOOKING</button>
+	
 </ion-content>
