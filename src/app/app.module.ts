@@ -25,6 +25,9 @@ import { CleanPage } from '../pages/clean/clean';
 import { ExtraPage } from '../pages/extra/extra';
 import { RequestsPage } from '../pages/requests/requests';
 import { AmenitiesPage } from '../pages/amenities/amenities';
+import { MessagelistPage } from '../pages/messagelist/messagelist';
+import { MessagePage } from '../pages/message/message';
+import { NotificationsPage } from '../pages/notifications/notifications';
 
 @NgModule({
   declarations: [
@@ -48,7 +51,10 @@ import { AmenitiesPage } from '../pages/amenities/amenities';
     CleanPage,
     ExtraPage,
     RequestsPage,
-    AmenitiesPage
+    AmenitiesPage,
+    MessagelistPage,
+    MessagePage,
+    NotificationsPage
   ],
   imports: [
     BrowserModule,
@@ -78,7 +84,10 @@ import { AmenitiesPage } from '../pages/amenities/amenities';
     CleanPage,
     ExtraPage,
     RequestsPage,
-    AmenitiesPage
+    AmenitiesPage,
+    MessagelistPage,
+    MessagePage,
+    NotificationsPage
   ],
   providers: [
     StatusBar,

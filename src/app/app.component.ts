@@ -10,6 +10,8 @@ import {BookingsPage} from '../pages/bookings/bookings'
 import { QrcodePage } from '../pages/qrcode/qrcode';
 import { RoomservicePage } from '../pages/roomservice/roomservice';
 import { AmenitiesPage } from '../pages/amenities/amenities';
+import { MessagelistPage } from '../pages/messagelist/messagelist';
+import { NotificationsPage } from '../pages/notifications/notifications';
 
 @Component({
   templateUrl: 'app.html'
@@ -32,7 +34,9 @@ export class MyApp {
       { title: 'Home', component: NewhomePage, imgSource: '../assets/imgs/home.png'},
       { title: 'List', component: DevpagePage, imgSource: '../assets/imgs/bookings.png' },
       { title: 'Room Service', component: RoomservicePage, imgSource: '../assets/imgs/roomservice.png'},
-      { title: 'Amenities', component: AmenitiesPage, imgSource: '../assets/imgs/amenities.png'}
+      { title: 'Amenities', component: AmenitiesPage, imgSource: '../assets/imgs/amenities.png'},
+      { title: 'Messages', component: MessagelistPage, imgSource: '../assets/imgs/messages.png'},
+      { title: 'Notifications', component: NotificationsPage, imgSource: '../assets/imgs/notifications.png'}
     ];
 
   }
