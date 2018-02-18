@@ -1,3 +1,18 @@
 page-notifications {
+  .page {
 
+      scroll-content {
+          display: flex;
+          flex-direction: column;
+      }
+
+      ion-grid {
+          padding: 0;
+          height: 100%;
+      }
+  }
+
+  .notification {
+    margin-bottom: 1em;
+  }
 }
