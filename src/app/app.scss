@@ -20,6 +20,12 @@
 	border-radius: 10px;
 }
 
+.listing{
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
+	margin: 1em;
+}
+
 .gradient{
 	background: linear-gradient(to bottom right,#F59F6A, #F55665);
 	box-shadow: rgba(0,0,0,0.3) 0 0 10px;
@@ -44,12 +50,12 @@ max-height: 80px !important; //any size
 }
 
 .item ion-thumbnail {
-    min-width: 4.5rem;    
+    min-width: 4.5rem;
     min-height: 4.5rem;
     img {
-        max-width: 4.5rem;    
+        max-width: 4.5rem;
         min-width: 4.5rem;
-        max-height: 4.5rem;    
+        max-height: 4.5rem;
         min-height: 4.5rem;
     }
 }

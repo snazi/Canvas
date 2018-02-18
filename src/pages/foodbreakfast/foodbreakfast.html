@@ -4,15 +4,104 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-header>
-
-  <ion-navbar>
-    <ion-title>foodbreakfast</ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
-<ion-content padding>
-
+<ion-content class="page mainBackground">
+  <ion-grid>
+    <ion-row padding class="bg">
+      <ion-grid>
+        <ion-row>
+  				<ion-col col-1>
+  			      <ion-icon menuToggle name="menu"></ion-icon>
+  			    </ion-col >
+  			    <ion-col col-10 text-center style="text-align:center;margin: auto;">
+  			      <img src="assets/imgs/cLogo.png">
+  			    </ion-col>
+            <ion-col col-1 text-right>
+  			       <ion-icon name="cart"></ion-icon>
+  			    </ion-col>
+  			</ion-row>
+        <ion-row padding>
+          <ion-col style="text-align:center;padding:1em;">
+			      BREAKFAST
+			    </ion-col>
+          <ion-col style="text-align:center;padding:1em;" [navPush]="foodsaladPage">
+			      SALAD
+			    </ion-col>
+  			</ion-row>
+      </ion-grid>
+    </ion-row>
+    <ion-row padding class="listing">
+      <ion-grid>
+        <ion-row>
+          <h6>
+            PANCAKE
+          </h6>
+        </ion-row>
+        <ion-row>
+          <p>
+            Have a light breakfast fare to start the day<br>
+            right. Two pancakes served with soft butter<br>
+            and choice of maple syrup, honey, chocolate<br>
+            or strawberry sauce.
+          </p>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <h6>
+              P201
+            </h6>
+          </ion-col>
+          <ion-col style="text-align:right;">
+            ORDER
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <h6>
+            OMELET
+          </h6>
+        </ion-row>
+        <ion-row>
+          <p>
+            Three egg omelet or egg white omelet<br>
+            prepared with your choice of ham, bacon,<br>
+            sausage, bell pepper, mushroom, cheese,<br>
+            tomato and spinach served with toasted<br>
+            bread and fresh seasonal fruits.
+          </p>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <h6>
+              P241
+            </h6>
+          </ion-col>
+          <ion-col style="text-align:right;">
+            ORDER
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <h6>
+            EGGS BENEDICT
+          </h6>
+        </ion-row>
+        <ion-row>
+          <p>
+            Two poached eggs on toasted English muffin<br>
+            with bacon or ham, topped with Hollandaise<br>
+            sauce served with grilled tomato and hash<br>
+            brown potatoes.
+          </p>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <h6>
+              P402
+            </h6>
+          </ion-col>
+          <ion-col style="text-align:right;">
+            ORDER
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-row>
+  </ion-grid>
 </ion-content>

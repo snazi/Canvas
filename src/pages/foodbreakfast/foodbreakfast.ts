@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { FoodsaladPage } from '../foodsalad/foodsalad';
 
 /**
  * Generated class for the FoodbreakfastPage page.
@@ -14,6 +15,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'foodbreakfast.html',
 })
 export class FoodbreakfastPage {
+
+  foodsaladPage = FoodsaladPage;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }

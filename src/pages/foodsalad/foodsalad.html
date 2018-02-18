@@ -4,15 +4,103 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-header>
-
-  <ion-navbar>
-    <ion-title>foodsalad</ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
-<ion-content padding>
-
+<ion-content class="page mainBackground">
+  <ion-grid>
+    <ion-row padding class="bg">
+      <ion-grid>
+        <ion-row>
+  				<ion-col col-1>
+  			      <ion-icon menuToggle name="menu"></ion-icon>
+  			    </ion-col >
+  			    <ion-col col-10 text-center style="text-align:center;margin: auto;">
+  			      <img src="assets/imgs/cLogo.png">
+  			    </ion-col>
+            <ion-col col-1 text-right>
+  			       <ion-icon name="cart"></ion-icon>
+  			    </ion-col>
+  			</ion-row>
+        <ion-row padding>
+          <ion-col style="text-align:center;padding:1em;" [navPush]="foodbreakfastPage">
+			      BREAKFAST
+			    </ion-col>
+          <ion-col style="text-align:center;padding:1em;">
+			      SALAD
+			    </ion-col>
+  			</ion-row>
+      </ion-grid>
+    </ion-row>
+    <ion-row padding class="listing">
+      <ion-grid>
+        <ion-row>
+          <h6>
+            CAESAR SALAD
+          </h6>
+        </ion-row>
+        <ion-row>
+          <p>
+            Fresh tossed Romanian lettuce with home-<br>
+            made Caesar dressing, croutons, parmesan<br>
+            cheese and choices of chicken, shrimps or<br>
+            plain.
+          </p>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <h6>
+              P321
+            </h6>
+          </ion-col>
+          <ion-col style="text-align:right;">
+            ORDER
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <h6>
+            GARDEN SALAD
+          </h6>
+        </ion-row>
+        <ion-row>
+          <p>
+            Mixed garden salad served with sweet
+            balsamic reduction, walnuts, parmesan
+            cheese and orange segment, cherry
+            tomatoes and focaccia bread.
+          </p>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <h6>
+              P259
+            </h6>
+          </ion-col>
+          <ion-col style="text-align:right;">
+            ORDER
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <h6>
+            CHEF SALAD
+          </h6>
+        </ion-row>
+        <ion-row>
+          <p>
+            Combination of garden salad with roasted
+            beef, chicken breast, cheese, onion, bell
+            pepper, hard-boiled egg and asparagus
+            with sweet mustard dressing.
+          </p>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <h6>
+              P308
+            </h6>
+          </ion-col>
+          <ion-col style="text-align:right;">
+            ORDER
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-row>
+  </ion-grid>
 </ion-content>
