@@ -28,6 +28,7 @@ import { AmenitiesPage } from '../pages/amenities/amenities';
 import { MessagelistPage } from '../pages/messagelist/messagelist';
 import { MessagePage } from '../pages/message/message';
 import { NotificationsPage } from '../pages/notifications/notifications';
+import { ProfilePage } from '../pages/profile/profile';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { NotificationsPage } from '../pages/notifications/notifications';
     AmenitiesPage,
     MessagelistPage,
     MessagePage,
-    NotificationsPage
+    NotificationsPage,
+    ProfilePage
   ],
   imports: [
     BrowserModule,
@@ -87,7 +89,8 @@ import { NotificationsPage } from '../pages/notifications/notifications';
     AmenitiesPage,
     MessagelistPage,
     MessagePage,
-    NotificationsPage
+    NotificationsPage,
+    ProfilePage
   ],
   providers: [
     StatusBar,
