@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { MessagePage } from '../message/message';
 
 /**
  * Generated class for the MessagelistPage page.
@@ -14,6 +15,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'messagelist.html',
 })
 export class MessagelistPage {
+
+  messagePage = MessagePage;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
