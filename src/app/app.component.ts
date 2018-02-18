@@ -9,6 +9,7 @@ import {DevpagePage} from '../pages/devpage/devpage';
 import {BookingsPage} from '../pages/bookings/bookings'
 import { QrcodePage } from '../pages/qrcode/qrcode';
 import { RoomservicePage } from '../pages/roomservice/roomservice';
+import { AmenitiesPage } from '../pages/amenities/amenities';
 
 @Component({
   templateUrl: 'app.html'
@@ -30,7 +31,8 @@ export class MyApp {
       { title: 'QR Code', component: QrcodePage, imgSource: '../assets/imgs/QRCode.png' },
       { title: 'Home', component: NewhomePage, imgSource: '../assets/imgs/home.png'},
       { title: 'List', component: DevpagePage, imgSource: '../assets/imgs/bookings.png' },
-      { title: 'Room Service', component: RoomservicePage, imgSource: '../assets/imgs/roomservice.png'}
+      { title: 'Room Service', component: RoomservicePage, imgSource: '../assets/imgs/roomservice.png'},
+      { title: 'Amenities', component: AmenitiesPage, imgSource: '../assets/imgs/amenities.png'}
     ];
 
   }

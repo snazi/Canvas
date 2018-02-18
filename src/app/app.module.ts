@@ -24,6 +24,7 @@ import { FoodsaladPage } from '../pages/foodsalad/foodsalad';
 import { CleanPage } from '../pages/clean/clean';
 import { ExtraPage } from '../pages/extra/extra';
 import { RequestsPage } from '../pages/requests/requests';
+import { AmenitiesPage } from '../pages/amenities/amenities';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { RequestsPage } from '../pages/requests/requests';
     FoodsaladPage,
     CleanPage,
     ExtraPage,
-    RequestsPage
+    RequestsPage,
+    AmenitiesPage
   ],
   imports: [
     BrowserModule,
@@ -75,7 +77,8 @@ import { RequestsPage } from '../pages/requests/requests';
     FoodsaladPage,
     CleanPage,
     ExtraPage,
-    RequestsPage
+    RequestsPage,
+    AmenitiesPage
   ],
   providers: [
     StatusBar,
