@@ -9,6 +9,7 @@ import {DevpagePage} from '../pages/devpage/devpage';
 import {BookingsPage} from '../pages/bookings/bookings'
 import { QrcodePage } from '../pages/qrcode/qrcode';
 import { RoomservicePage } from '../pages/roomservice/roomservice';
+import {CalendarPage} from '../pages/calendar/calendar'
 
 @Component({
   templateUrl: 'app.html'
@@ -17,7 +18,7 @@ export class MyApp {
 
   @ViewChild(Nav) nav: Nav;
 
-  rootPage:any = NewhomePage;
+  rootPage:any = CalendarPage;
 
   pages: Array<{title: string, component: any, imgSource: string}> ;
 
