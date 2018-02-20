@@ -1,82 +1,52 @@
 
   <ion-content class="home mainBackground">
-
     <ion-grid>
- 
       <ion-row class="test">
-
-
         <ion-grid>
- 
           <ion-row class="canvasLogo">
-
             <div style="height: 50%; width: 100%;">
               <ion-grid>
               <ion-row style="text-align: center;margin: auto;">
                 <img padding src="assets/imgs/cLogo.png">
-
               </ion-row>
             </ion-grid>
             </div>
-            
           </ion-row>
-     
           <ion-row class="initialInputArea">
-          
-
           <ion-grid>
             <ion-row padding>
-             
-                  <ion-item no-lines class="boxedInput" >
-                    <ion-input no-lines type="text" placeholder="Email"></ion-input>
-                  </ion-item>
-
-                  
-             
+                <ion-item no-lines class="boxedInput" >
+                  <ion-input no-lines type="text" placeholder="Email"></ion-input>
+                </ion-item>
             </ion-row>
-
             <ion-row padding >
-             
-                  
-                  <ion-item no-lines class="boxedInput" >
-                    <ion-input no-lines  type="password" placeholder="PIN"></ion-input>
-                  </ion-item>
-             
+                <ion-item no-lines class="boxedInput" >
+                  <ion-input no-lines  type="password" placeholder="PIN"></ion-input>
+                </ion-item>
             </ion-row>
-
             <ion-row padding>
-             
-                  
-                  <ion-item no-lines class="boxedInput" >
-                    <ion-input no-lines type="password" placeholder="Confirm PIN"></ion-input>
-                  </ion-item>
-             
+                <ion-item no-lines class="boxedInput" >
+                  <ion-input no-lines type="password" placeholder="Confirm PIN"></ion-input>
+                </ion-item>
             </ion-row>
-            
           </ion-grid>
-
-          
-
           </ion-row>
-     
-          <ion-row text-center class ="initialExtraArea">
+          <ion-row text-center>
             <ion-col> <p>PIN must be 6 numbers only</p></ion-col>
           </ion-row>
-     
-        </ion-grid> 
+        </ion-grid>
 
 
       </ion-row>
- 
+
       <ion-row padding text-center style="height:15%;color: #FFFFFF;">
-        <ion-col><h4>Please enter your <br>email and PIN</h4></ion-col>
+        <ion-col class="bigText"><p>Please enter your<br>email and PIN</p></ion-col>
       </ion-row>
- 
-      <ion-row padding text-right style="height:10%;color: #FFFFFF;">
-        <ion-col> <h5 [navPush]="scanPage">Continue > </h5></ion-col>
-      </ion-row>
- 
-    </ion-grid>  
-    
-</ion-content>
 
+      <ion-row padding text-right style="height:10%;color: #FFFFFF;">
+        <ion-col> <h5 [navPush]="scanPage">CONTINUE > </h5></ion-col>
+      </ion-row>
+
+    </ion-grid>
+
+</ion-content>

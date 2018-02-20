@@ -11,34 +11,17 @@
 
       <ion-row class="test">
 
-        <ion-grid>
+        <ion-grid padding>
 
-          <ion-row class="canvasLogo">
-
-            <div style="height: 50%; width: 100%;">
-              <ion-grid>
-                <ion-row style="text-align: center;margin: auto;">
-                  <img padding src="assets/imgs/cLogo.png">
-
-                </ion-row>
-              </ion-grid>
-            </div>
-
+          <ion-row>
+    			    <ion-col text-center style="text-align:center;margin: auto;">
+    			      <img src="assets/imgs/cLogo.png">
+    			    </ion-col>
+    			</ion-row>
+          <ion-row padding class="boxedInput" style="height:70%;margin-top:1em;">
           </ion-row>
-          <ion-row class="initialInputArea">
-
-            <ion-grid>
-
-              <ion-row padding class="imageArea">
-                    <ion-item no-lines class="boxedInput" ></ion-item>
-              </ion-row>
-
-              <ion-row padding text-center class ="initialExtraArea">
-                <ion-col> <p>Make sure your passport details are visible<br>in the photo and that the image is clear</p></ion-col>
-              </ion-row>
-
-            </ion-grid>
-
+          <ion-row padding text-center>
+            <ion-col> <p>Make sure your passport details are visible<br>in the photo and that the image is clear</p></ion-col>
           </ion-row>
 
         </ion-grid>
@@ -46,7 +29,7 @@
       </ion-row>
       <ion-row padding text-center style="height:15%;color: #FFFFFF;">
 
-        <ion-col><h4>Use this as your<br>passport image?</h4></ion-col>
+        <ion-col class="bigText"><p>Use this as your<br>passport image?</p></ion-col>
 
       </ion-row>
       <ion-row padding style="height:10%;color: #FFFFFF;">
