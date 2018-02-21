@@ -16,19 +16,33 @@
         </ion-col>
     </ion-row>
     <ion-row padding>
-      <ion-list>
-        <ion-item no-lines class="boxedInput message" [navPush]="messagePage">
+      <ion-list style="width:100%;">
+        <ion-item no-lines class="boxedInput message" [navPush]="messagePage" style="width:100%; margin-bottom:5%; color: #FFFFFF">
           <ion-avatar item-start>
             <img src="assets/imgs/admin.png">
           </ion-avatar>
-          <h2>Canvas Admin</h2>
-          <p style="color:white;">Hey Rain! Thanks for booking with<br>us at Crimson Mactan. The details…</p>
+          <ion-row>
+            <ion-col>
+              <h2>Canvas Admin</h2>
+            </ion-col>
+            <ion-col text-right>
+              <p>10:00AM</p>
+            </ion-col>
+          </ion-row>
+          <ion-row><p style="color:white;">Hey Rain! Thanks for booking with<br>us at Crimson Mactan. The details…</p></ion-row>
         </ion-item>
         <ion-item no-lines class="boxedInput message" [navPush]="messagePage">
           <ion-avatar item-start>
             <img src="assets/imgs/admin.png">
           </ion-avatar>
-          <h2>Zaid Aslam</h2>
+          <ion-row>
+            <ion-col>
+              <h2>Zaid Aslam</h2>
+            </ion-col>
+            <ion-col text-right>
+              <p>9:48AM</p>
+            </ion-col>
+          </ion-row>
           <p style="color:white;">Yo! I saw that you’re also interested<br>in parties? Well, there’s one here…</p>
         </ion-item>
       </ion-list>
