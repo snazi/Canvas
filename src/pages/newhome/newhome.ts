@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import  {CalendarPage} from '../calendar/calendar';
+
 
 /**
  * Generated class for the NewhomePage page.
@@ -14,6 +16,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'newhome.html',
 })
 export class NewhomePage {
+
+	calendarPage = CalendarPage;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }

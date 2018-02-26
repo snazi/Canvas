@@ -18,7 +18,7 @@ export class MyApp {
 
   @ViewChild(Nav) nav: Nav;
 
-  rootPage:any = CalendarPage;
+  rootPage:any = HomePage;
 
   pages: Array<{title: string, component: any, imgSource: string}> ;
 
@@ -28,10 +28,10 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'QR Code', component: QrcodePage, imgSource: '../assets/imgs/QRCode.png' },
-      { title: 'Home', component: NewhomePage, imgSource: '../assets/imgs/home.png'},
-      { title: 'List', component: DevpagePage, imgSource: '../assets/imgs/bookings.png' },
-      { title: 'Room Service', component: RoomservicePage, imgSource: '../assets/imgs/roomservice.png'}
+      { title: 'QR Code', component: QrcodePage, imgSource: 'assets/imgs/QRCode.png' },
+      { title: 'Home', component: NewhomePage, imgSource: 'assets/imgs/home.png'},
+      { title: 'List', component: DevpagePage, imgSource: 'assets/imgs/bookings.png' },
+      { title: 'Room Service', component: RoomservicePage, imgSource: 'assets/imgs/roomservice.png'}
     ];
 
   }

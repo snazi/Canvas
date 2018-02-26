@@ -1,3 +1,149 @@
 page-calendar {
+	.wholeScreen{
+		scroll-content {
+	        display: flex;
+	        flex-direction: column;
+	    }
+	 
+	    ion-grid {
+	        padding: 0;
+	        height: 100%;
+	    }  
+	}
+
+	.card{
+		height: 75%;
+		width: 100%;
+	}
+
+	.banner{
+		height:100%;
+		width:100%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-image: url('../assets/imgs/homeImg.png');
+	
+	}
+
+	.customButton1{
+		border-radius: 12px;
+		background-color: rgba(255,255,255, 0.1);
+	}
+
+	ion-calendar {
+	  padding: 10px 20px;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box;
+	  display: inline-block;
+	  background-color: transparent;
+	  width: 100%;
+	}
+
+	ion-calendar .title .back, ion-calendar .title .forward {
+	  color: rgba(255, 255, 255, 0.5);
+	}
+
+	ion-calendar-month button.days-btn p {
+	  margin: 0;
+	  font-size: 1.2em;
+	  color: #FFFFFF;
+	}
+
+	ion-calendar-month .primary button.days-btn small,
+	ion-calendar-month .primary .days .marked p,
+	ion-calendar-month .primary .days .today p {
+	  color: #8B1E3F;
+	}
+
+	ion-calendar-month .primary .days .last-month-day p,
+	ion-calendar-month .primary .days .next-month-day p {
+	  color: rgba(255, 255, 255, 0.5);
+	}
+
+	ion-calendar-month .primary .days .today.on-selected p,
+	ion-calendar-month .primary .days .marked.on-selected p {
+	  color: #fff;
+	}
+
+	ion-calendar-month .primary .endSelection:after {
+	  height: 36px;
+	  width: 50%;
+	  content: '';
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  display: block;
+	  background-color: #E43B42;
+	}
+
+	ion-calendar-month .primary .startSelection:after {
+	  height: 36px;
+	  width: 50%;
+	  content: '';
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  display: block;
+	  background-color: #E43B42;
+	}
+
+	ion-calendar-month .primary .between button.days-btn {
+	  background-color: #E43B42;
+	  width: 100%;
+	  border-radius: 0;
+	}
+
+	ion-calendar-month .primary .days.between {
+	  background-color: #E43B42;
+	}
+
+	ion-calendar-month .primary .days .on-selected,
+	ion-calendar-month .primary .startSelection button.days-btn,
+	ion-calendar-month .primary .endSelection button.days-btn {
+	  background-color: #E43B42;
+	  color: #fff;
+	}
+
+	ion-calendar .title .back, ion-calendar .title .forward {
+	  color: #FFFFFF;
+	}
+
+	ion-calendar .title .switch-btn {
+	  width: 100%;
+	  text-align: center;
+	  line-height: 32px;
+	  color: #FFFFFF;
+	}
+
+	ion-calendar-week .week-title.primary {
+	  margin: 0;
+	  color: #fff;
+	  height: 44px;
+	  width: 100%;
+	  background-color: #FFFFFF;
+	  padding: 15px 0;
+	}
+
+	ion-calendar-week .week-title.cal-color {
+	  margin: 0;
+	  color: #fff;
+	  height: 44px;
+	  width: 100%;
+	  background-color: #FFFFFF;
+	  padding: 15px 0;
+	}
+
+	ion-calendar-week .week-title.transparent {
+	  margin: 0;
+	  color: #FFFFFF;
+	  height: 44px;
+	  width: 100%;
+	  background-color: #f4f4f4;
+	  padding: 15px 0;
+	  background-color: transparent;
+	}
+
+
 
 }
